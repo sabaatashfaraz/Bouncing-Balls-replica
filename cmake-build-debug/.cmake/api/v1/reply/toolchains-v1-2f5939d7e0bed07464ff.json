@@ -1,0 +1,131 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include",
+						"D:/MinGW/MinGW/include",
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0",
+						"D:/MinGW/MinGW/lib/gcc",
+						"D:/MinGW/MinGW/mingw32/lib",
+						"D:/MinGW/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/MinGW/MinGW/bin/gcc.exe",
+				"version" : "5.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include/c++",
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include/c++/mingw32",
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include/c++/backward",
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include",
+						"D:/MinGW/MinGW/include",
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0",
+						"D:/MinGW/MinGW/lib/gcc",
+						"D:/MinGW/MinGW/mingw32/lib",
+						"D:/MinGW/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"D:/MinGW/MinGW/lib/gcc/mingw32/5.1.0/libstdc++.a",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/MinGW/MinGW/bin/c++.exe",
+				"version" : "5.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/MinGW/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

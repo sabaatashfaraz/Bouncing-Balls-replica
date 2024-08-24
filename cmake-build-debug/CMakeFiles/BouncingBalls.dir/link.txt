@@ -1,0 +1,3 @@
+"C:\Users\Saba\Desktop\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\BouncingBalls.dir/objects.a
+D:\MinGW\MinGW\bin\ar.exe qc CMakeFiles\BouncingBalls.dir/objects.a @CMakeFiles\BouncingBalls.dir\objects1.rsp
+D:\MinGW\MinGW\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\BouncingBalls.dir/objects.a -Wl,--no-whole-archive -o BouncingBalls.exe -Wl,--out-implib,libBouncingBalls.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BouncingBalls.dir\linkLibs.rsp
